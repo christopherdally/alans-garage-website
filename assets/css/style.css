@@ -15,14 +15,25 @@ a:hover {
 	color:#2C74B3;
 }
 
+#reviews {
+	width: 100vw;
+	height: 400px;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 900;
+	font-size: 220%;
+}
+
 h2 {
 	text-align: center;
-	font-weight: bold;
-	font-size: 200%;
+	font-weight: 400;
+	font-size: 170%;
 }
 
 h3 {
-	font-weight: bold;
+	font-weight: 300;
 	font-size:140%;
 }
 
@@ -70,6 +81,7 @@ h3 {
 	height: auto;	
 	margin:0 auto;
 	display: flex;
+	text-align: center;
 }
 
 .services-box {
@@ -80,7 +92,7 @@ h3 {
 	margin: 5px;
 	padding: 5px;
 	float: left;
-	position: relative;
+	display: inline-block;
 	text-align: center;
 }
 
@@ -102,6 +114,22 @@ h3 {
 .welcome {
 	text-align: center;
 	padding:30px;
+}
+
+.contact-page-blocks {
+	height: auto;	
+	margin:0 auto;
+	display: flex;
+}
+
+#contact-page-left {
+	float: left;
+	width:  50%;
+}
+
+#contact-page-right {
+	float: right;
+	width:  50%;
 }
 
 #findus {
@@ -146,6 +174,49 @@ footer p {
 	color: #2C74B3;
 }
 
+.form-outer {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+
+.contact-form {
+	width: 70%;
+	border: 1px #144272 solid;
+	padding: 10px;
+	margin: 20px;
+	display: inline-block;
+}
+
+.contact-form input {
+	width: 60%;
+	padding: 5px;
+	margin: 10px;
+}
+
+.contact-form textarea {
+	width: 60%;
+	padding: 5px;
+	margin: 10px;
+}
+
+.contact-form button {
+	background-color: #0A2647;
+	color: white;
+	width: auto;
+}
+
+.contact-form button[type=reset] {
+	width: auto;
+	background-color: red;
+	color: white;
+}
+
+#map {
+	width: 100%;
+	height: 400px;
+}
+
 @media screen and (max-width: 600px) {
 	#services-outer {
 		height: auto;
@@ -174,4 +245,5 @@ footer p {
 	#findus div {
 	width:100%;
 }
+
 }

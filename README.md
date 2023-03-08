@@ -27,7 +27,9 @@ Bootstrap Framework V5 for navigation menu
 
 Used Sociable Kit (https://www.sociablekit.com/) to embed Google reviews on the site
 
-Issues
+Embedded Google Maps to Contact Page
+
+Issues/Changes 
 
 7th March 2023 - 
 
@@ -40,6 +42,17 @@ Issues
 2. Design the site to be responsive as services and contact details weren't right
 3. Decided to go with separate services pages for the following (Vehicle Servicing, Tyres, MOT's and Vehicle Repairs) as I believe this would be better for the SEO scores.
 4. Add meta keywords and descriptions to all pages again this is for a better SEO.
+5. Deployed website via git on my server run by Plesk for testing purposes at https://musing-archimedes.109-228-60-76.plesk.page/.
+6. Run CSS Validator - All clear apart from font awesome
+7. Run HTML Validator
+	1. Change the header image section to a div instead of a section
+	2. Removed height and width of the iframe (reviews)
+8. Added id to iframe reviews to ensure the website passes HTML Validator
+9. Added Vehicle Servicing Page
+10. Added Contact Us page
+11. Embedded Google Maps to Website Contact Page
+12. Changed styling on the contact page button as the mobile version wasn't showing the full button name
+13. Created the reminder of the site pages
 
 
 
