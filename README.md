@@ -1,3 +1,9 @@
+# alans-garage-website
+
+Christopher Dally - Web Development Milestone Project 1
+
+Project Purpose
+
 To design a website for a local garage that currently hasn't got any online presence at the moment with the following;
 
 •	Contact Page with form (with google maps added to page)
@@ -32,4 +38,8 @@ Issues
 
 1. Add the phone number and address to the top of the page below the navigation
 2. Design the site to be responsive as services and contact details weren't right
-3. Decided to go with separate services pages for the following (Vehicle Servicing, Tyres, MOT's and Vehicle Repairs) as I believe this would be better for the SEO scores of the end website.
+3. Decided to go with separate services pages for the following (Vehicle Servicing, Tyres, MOT's and Vehicle Repairs) as I believe this would be better for the SEO scores.
+4. Add meta keywords and descriptions to all pages again this is for a better SEO.
+
+
+
