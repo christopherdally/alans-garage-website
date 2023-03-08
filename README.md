@@ -52,7 +52,10 @@ Issues/Changes
 10. Added Contact Us page
 11. Embedded Google Maps to Website Contact Page
 12. Changed styling on the contact page button as the mobile version wasn't showing the full button name
-13. Created the reminder of the site pages
+13. Created the remainder of the site pages
+14. Minor changes
+	1. Vosa icon on the bottom of every page
+	2. Active page in Nav bar update
 
 
 
