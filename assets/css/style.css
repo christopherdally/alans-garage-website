@@ -37,9 +37,38 @@ h3 {
 	font-size:140%;
 }
 
+.navbar {
+	background-color: #0A2647;
+}
+
 .navbar-brand h1 {
 	font-weight: bold;
 	font-size: 200%;
+	color: white;
+}
+
+.navbar-nav {
+	color: white;
+	font-weight: bold;
+}
+
+.navbar-nav a {
+	color: white;
+	
+}
+
+.navbar-nav a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+.navbar-nav .nav-link.active {
+	text-decoration: underline !important;
+	color: white;
+}
+
+.navbar-toggler {
+	border: 1px
 }
 
 #phone-top {
