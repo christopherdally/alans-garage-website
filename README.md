@@ -8,7 +8,6 @@ To design a website for a local garage that currently hasn't got any online pres
 
 •	Contact Page with form (with google maps added to page)
 •	Reviews (if possible, from Google Reviews)
-•   	Create a request an estimate website form
 •	Contact Details
 •	Social Links on the page (use Font Awesome for icons)
 •	Use bootstrap for the navigation menu 
