@@ -57,5 +57,7 @@ Issues/Changes
 	1. Vosa icon on the bottom of every page
 	2. Active page in Nav bar update
 
+10th March 2023 -
 
+1. Changed the default bootstrap navbar background color and link to better suit the site.
 
