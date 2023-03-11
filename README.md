@@ -64,3 +64,4 @@ Issues/Changes
 11th March 2023 -
 
 1. Changed the colour for toggle menu
+2. Contact form changed to required input fields
