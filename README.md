@@ -10,6 +10,10 @@ To design a website for a local garage that currently hasn't got any online pres
 4. Social Links on the page (use Font Awesome for icons)
 5. Use bootstrap for the navigation menu 
 
+## Wireframe
+
+![Wireframe of Garage Website](/assets/wireframe.png)
+
 ## References
 
 - Used Font Awesome v4 for icons on the page as couldn't use the most recent one as need to pay for an account.
