@@ -65,3 +65,7 @@ Issues/Changes
 
 1. Changed the colour for toggle menu
 2. Contact form changed to required input fields
+
+13th March 2023 -
+
+1. Change header image size due to not expanding enough on larger screen sizes
