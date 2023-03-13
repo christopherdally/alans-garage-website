@@ -1,4 +1,7 @@
+/** body styles and imported fonts  **/
+
 @import url('https://fonts.googleapis.com/css2?family=Marvel&family=Staatliches&display=swap');
+
 
 body {
     font-family: Marvel;
@@ -6,6 +9,8 @@ body {
 	font-size: 22px;
 	background-color: rgba(221,221,221,1.00);
 }
+
+/* hyperlink style */
 
 a {
 	color:#144272;
@@ -19,6 +24,8 @@ a:hover {
 	width: 100vw;
 	height: 400px;
 }
+
+/* header styles */
 
 h1 {
 	text-align: center;
@@ -36,6 +43,8 @@ h3 {
 	font-weight: 300;
 	font-size:140%;
 }
+
+/*navbar styles */
 
 .navbar {
 	background-color: #0A2647;
@@ -81,6 +90,7 @@ h3 {
 	padding: 10px 10px 10px 30px;
 }
 
+/* header image */
 
 .header-image {
 	background: url("../images/header.jpg") no-repeat center center;
@@ -107,6 +117,8 @@ h3 {
 	overflow: hidden; 
 	position: relative;
 }
+
+/*services section */
 
 .service-section {
 	margin: 0 auto;
@@ -146,10 +158,14 @@ h3 {
 	margin:  10px;
 }
 
+/* homepage welcome text */
+
 .welcome {
 	text-align: center;
 	padding:30px;
 }
+
+/* contact page styles */
 
 .contact-page-blocks {
 	height: auto;	
@@ -165,48 +181,6 @@ h3 {
 #contact-page-right {
 	float: right;
 	width:  50%;
-}
-
-#findus {
-	display: flex;
-	justify-content: center;
-	height: auto;
-}
-
-#findus div {
-	width:30%;
-	height: auto;
-	text-align: center;
-}
-
-footer p {
-    font-family: Marvel;
-    font-weight: bold;
-	text-align: center;
-	font-size: 70%;
-	padding: 0;
-	margin: 0;
-}
-
-#social-links {
-	text-align: center;
-	
-}
-
-#social-links li {
-	list-style: none;
-	display: inline;
-	
-}
-
-#social-links i {
-	font-size: 200%;
-	color: #0A2647;
-	padding: 20px;
-}
-
-#social-links i:hover {
-	color: #2C74B3;
 }
 
 .form-outer {
@@ -251,6 +225,54 @@ footer p {
 	width: 100%;
 	height: 400px;
 }
+
+/* bottom of page find us */
+
+#findus {
+	display: flex;
+	justify-content: center;
+	height: auto;
+}
+
+#findus div {
+	width:30%;
+	height: auto;
+	text-align: center;
+}
+
+/* footer and social styles */
+
+footer p {
+    font-family: Marvel;
+    font-weight: bold;
+	text-align: center;
+	font-size: 70%;
+	padding: 0;
+	margin: 0;
+}
+
+#social-links {
+	text-align: center;
+	
+}
+
+#social-links li {
+	list-style: none;
+	display: inline;
+	
+}
+
+#social-links i {
+	font-size: 200%;
+	color: #0A2647;
+	padding: 20px;
+}
+
+#social-links i:hover {
+	color: #2C74B3;
+}
+
+/*responsive size styles*/
 
 @media screen and (max-width: 600px) {
 	#services-outer {

@@ -1,33 +1,29 @@
-# Christopher Dally - Web Development Milestone Project 1
+# Alan's MOT Garage 
 
-## Project Purpose
+The purpose of this project is to design a fully responsive website for a local car garage that currently doesn’t have an online presence at the moment. the goal of the website is to provide information to the end user about the local garage. 
 
-To design a website for a local garage that currently hasn't got any online presence at the moment with the following;
+![Responsice Mockup](/wireframe/3-devices-black-mockup.png)
 
-1. Contact Page with form (with google maps added to page)
-2. Reviews (if possible, from Google Reviews)
-3. Contact Details
-4. Social Links on the page (use Font Awesome for icons)
-5. Use bootstrap for the navigation menu 
+## Features 
 
-## Wireframe
+The features of the website are the following;
+1.	Contact page with form
+2.	Reviews from Google
+3.	Contact Details
+4.	Social Links
+5.	Main navigation 
+6. Color scheme for website as follows
+	1. #0A2647 				#144272 			#205295 			#2C74B3
+		rgb(10, 38, 71)		rgb(20, 66, 114)	rgb(32, 82, 149)	rgb(44, 116, 179)	
 
-![Wireframe of Garage Website](/assets/images/wireframe.png)
+![Wireframe of Garage Website](/wireframe/wireframe.png)
 
-## References
+## Testing 
 
-- Used Font Awesome v4 for icons on the page as couldn't use the most recent one as need to pay for an account.
-- Used Colorhunt.co website to generate a colour scheme for the website https://colorhunt.co/palette/0a26471442722052952c74b3.
-#0A2647 			#144272 			#205295 			#2C74B3
-rgb(10, 38, 71)	rgb(20, 66, 114)			rgb(32, 82, 149)		rgb(44, 116, 179)
+All features on the site were tested to ensure the responsiveness of the site across all devices. Contact form transfer to thank you page to tell customers of the message sent. Reviews on the home page tell users of how the garage performs with customers.
 
-- All the images for the site have been sourced from Adobe Stock Free (used on the header and services section)
+Site was deployed to git pages for more testing found that the overflow of page so ammended the div spacing to sort this out.
 
-- Bootstrap Framework V5 for navigation menu
-
-- Used Sociable Kit (https://www.sociablekit.com/) to embed Google reviews on the site
-
-- Embedded Google Maps to Contact Page
 
 ## Issues/Changes 
 
@@ -62,7 +58,6 @@ rgb(10, 38, 71)	rgb(20, 66, 114)			rgb(32, 82, 149)		rgb(44, 116, 179)
 
 1. Changed the default bootstrap navbar background color and link to better suit the site.
 
-
 ### 11th March 2023 -
 
 1. Changed the colour for toggle menu
@@ -72,3 +67,38 @@ rgb(10, 38, 71)	rgb(20, 66, 114)			rgb(32, 82, 149)		rgb(44, 116, 179)
 
 1. Change header image size due to not expanding enough on larger screen sizes
 2. Changed the Readme styling using markdown
+3. Updated readme file and added mockup
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristopherdally.github.io%2Falans-garage-website%2F)
+- CSS
+  - Only errors found on CSS Validator was the css being used on the bootstrap css file not ones that are designed for this project [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchristopherdally.github.io%2Falans-garage-website%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### Unfixed Bugs
+
+None that I am aware off
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://christopherdally.github.io/alans-garage-website/ 
+
+
+## Credits 
+
+1. Font awesome v4 used for the site icons
+2. All media images used for site purchased through adobe stock free
+3. Bootstrap V5 used for navigation menu
+4. Used Colorhunt.co website to generate a colour scheme for the website https://colorhunt.co/palette/0a26471442722052952c74b3
+5. Google maps imbedded on to contact page
+6. Used Sociable Kit (https://www.sociablekit.com/) to embed Google reviews on the site
+
+## Other General Project Advice
+
+1. Realised that some of my intial commit message wasn't to form but since then made sure that they was right
