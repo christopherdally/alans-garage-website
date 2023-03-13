@@ -12,7 +12,7 @@ To design a website for a local garage that currently hasn't got any online pres
 
 ## Wireframe
 
-![Wireframe of Garage Website](/assets/wireframe.png)
+![Wireframe of Garage Website](/assets/images/wireframe.png)
 
 ## References
 
