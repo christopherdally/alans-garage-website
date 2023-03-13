@@ -1,41 +1,38 @@
-# alans-garage-website
+# Christopher Dally - Web Development Milestone Project 1
 
-Christopher Dally - Web Development Milestone Project 1
-
-Project Purpose
+## Project Purpose
 
 To design a website for a local garage that currently hasn't got any online presence at the moment with the following;
 
-•	Contact Page with form (with google maps added to page)
-•	Reviews (if possible, from Google Reviews)
-•	Contact Details
-•	Social Links on the page (use Font Awesome for icons)
-•	Use bootstrap for the navigation menu 
+1. Contact Page with form (with google maps added to page)
+2. Reviews (if possible, from Google Reviews)
+3. Contact Details
+4. Social Links on the page (use Font Awesome for icons)
+5. Use bootstrap for the navigation menu 
 
-References
+## References
 
-Used Font Awesome v4 for icons on the page as couldn't use the most recent one as need to pay for an account.
-
-Used Colorhunt.co website to generate a colour scheme for the website https://colorhunt.co/palette/0a26471442722052952c74b3.
+- Used Font Awesome v4 for icons on the page as couldn't use the most recent one as need to pay for an account.
+- Used Colorhunt.co website to generate a colour scheme for the website https://colorhunt.co/palette/0a26471442722052952c74b3.
 #0A2647 			#144272 			#205295 			#2C74B3
 rgb(10, 38, 71)	rgb(20, 66, 114)			rgb(32, 82, 149)		rgb(44, 116, 179)
 
-All the images for the site have been sourced from Adobe Stock Free (used on the header and services section)
+- All the images for the site have been sourced from Adobe Stock Free (used on the header and services section)
 
-Bootstrap Framework V5 for navigation menu
+- Bootstrap Framework V5 for navigation menu
 
-Used Sociable Kit (https://www.sociablekit.com/) to embed Google reviews on the site
+- Used Sociable Kit (https://www.sociablekit.com/) to embed Google reviews on the site
 
-Embedded Google Maps to Contact Page
+- Embedded Google Maps to Contact Page
 
-Issues/Changes 
+## Issues/Changes 
 
-7th March 2023 - 
+### 7th March 2023 - 
 
 1. Bootstrap Menu not loading figured out that I didn't paste Javascript onto the page hence why it wasn't working
 2. Most of the site is now designed just need to configure smaller screen sizes 
 
-8th March 2023 -
+### 8th March 2023 -
 
 1. Add the phone number and address to the top of the page below the navigation
 2. Design the site to be responsive as services and contact details weren't right
@@ -56,16 +53,17 @@ Issues/Changes
 	1. Vosa icon on the bottom of every page
 	2. Active page in Nav bar update
 
-10th March 2023 -
+### 10th March 2023 -
 
 1. Changed the default bootstrap navbar background color and link to better suit the site.
 
 
-11th March 2023 -
+### 11th March 2023 -
 
 1. Changed the colour for toggle menu
 2. Contact form changed to required input fields
 
-13th March 2023 -
+### 13th March 2023 -
 
 1. Change header image size due to not expanding enough on larger screen sizes
+2. Changed the Readme styling using markdown
