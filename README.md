@@ -43,6 +43,7 @@ rgb(10, 38, 71)	rgb(20, 66, 114)			rgb(32, 82, 149)		rgb(44, 116, 179)
 3. Decided to go with separate services pages for the following (Vehicle Servicing, Tyres, MOT's and Vehicle Repairs) as I believe this would be better for the SEO scores.
 4. Add meta keywords and descriptions to all pages again this is for a better SEO.
 5. Deployed website via git on my server run by Plesk for testing purposes at https://musing-archimedes.109-228-60-76.plesk.page/.
+	1. Also deployed to GitHub pages link https://christopherdally.github.io/alans-garage-website/
 6. Run CSS Validator - All clear apart from font awesome
 7. Run HTML Validator
 	1. Change the header image section to a div instead of a section
