@@ -301,6 +301,20 @@ footer p {
 		text-align: center;
 
 	}
+	
+	.contact-form {
+	width: 100%;
+	padding: 5px;
+	margin: 0;
+	}
+	.contact-form input {
+	width: 90%;
+	}
+
+	.contact-form textarea {
+	width: 90%;
+	}
+
 
 	#findus {
 		display: block;
