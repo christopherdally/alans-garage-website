@@ -74,6 +74,8 @@ Site was deployed to git pages for more testing found that the overflow of page 
 1. Changes to styling to stop overlay on page for header and reviews div
 2. Added pictures to services pages
 3. Format documents
+4. Change styling to contact page on mobiles
+5. Added contact form thank you page
 
 ### Validator Testing 
 
