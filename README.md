@@ -69,6 +69,11 @@ Site was deployed to git pages for more testing found that the overflow of page 
 2. Changed the Readme styling using markdown
 3. Updated readme file and added mockup
 
+### 14th March 2023 -
+
+1. Changes to styling to stop overlay on page for header and reviews div
+2. 
+
 ### Validator Testing 
 
 - HTML
