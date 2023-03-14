@@ -72,7 +72,8 @@ Site was deployed to git pages for more testing found that the overflow of page 
 ### 14th March 2023 -
 
 1. Changes to styling to stop overlay on page for header and reviews div
-2. 
+2. Added pictures to services pages
+3. Format documents
 
 ### Validator Testing 
 

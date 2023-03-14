@@ -4,20 +4,20 @@
 
 
 body {
-    font-family: Marvel;
+	font-family: Marvel;
 	color: #0A2647;
 	font-size: 22px;
-	background-color: rgba(221,221,221,1.00);
+	background-color: rgba(221, 221, 221, 1.00);
 }
 
 /* hyperlink style */
 
 a {
-	color:#144272;
+	color: #144272;
 }
 
 a:hover {
-	color:#2C74B3;
+	color: #2C74B3;
 }
 
 #reviews {
@@ -41,7 +41,7 @@ h2 {
 
 h3 {
 	font-weight: 300;
-	font-size:140%;
+	font-size: 140%;
 }
 
 /*navbar styles */
@@ -63,7 +63,7 @@ h3 {
 
 .navbar-nav a {
 	color: white;
-	
+
 }
 
 .navbar-nav a:hover {
@@ -83,7 +83,7 @@ h3 {
 
 .navbar-toggler-icon {
 	color: #FFFFFF;
-	
+
 }
 
 #phone-top {
@@ -96,7 +96,7 @@ h3 {
 	background: url("../images/header.jpg") no-repeat center center;
 	width: 100%;
 	height: 400px;
-	
+
 	animation-name: header-image;
 	animation-duration: 5s;
 	animation-fill-mode: forwards;
@@ -106,6 +106,7 @@ h3 {
 	from {
 		transform: scale(1);
 	}
+
 	to {
 		transform: scale(1.1);
 	}
@@ -114,7 +115,7 @@ h3 {
 .header-outer {
 	width: 100%;
 	height: 400px;
-	overflow: hidden; 
+	overflow: hidden;
 	position: relative;
 }
 
@@ -125,8 +126,8 @@ h3 {
 }
 
 #services-outer {
-	height: auto;	
-	margin:0 auto;
+	height: auto;
+	margin: 0 auto;
 	display: flex;
 	text-align: center;
 }
@@ -145,24 +146,24 @@ h3 {
 
 .services-box h3 {
 	font-weight: bold;
-	font-size:110%;
+	font-size: 110%;
 	text-align: center;
 	padding-top: 10px;
 }
 
 .services-box img {
 	border-radius: 15px;
-	border: 1px solid #2C74B3; 
+	border: 1px solid #2C74B3;
 	width: 85%;
-	padding:  5px;
-	margin:  10px;
+	padding: 5px;
+	margin: 10px;
 }
 
 /* homepage welcome section and main content */
 
 .welcome {
 	text-align: center;
-	padding:30px;
+	padding: 30px;
 }
 
 .welcome img {
@@ -176,19 +177,19 @@ h3 {
 /* contact page styles */
 
 .contact-page-blocks {
-	height: auto;	
-	margin:0 auto;
+	height: auto;
+	margin: 0 auto;
 	display: flex;
 }
 
 #contact-page-left {
 	float: left;
-	width:  50%;
+	width: 50%;
 }
 
 #contact-page-right {
 	float: right;
-	width:  50%;
+	width: 50%;
 }
 
 .form-outer {
@@ -243,7 +244,7 @@ h3 {
 }
 
 #findus div {
-	width:30%;
+	width: 30%;
 	height: auto;
 	text-align: center;
 }
@@ -251,8 +252,8 @@ h3 {
 /* footer and social styles */
 
 footer p {
-    font-family: Marvel;
-    font-weight: bold;
+	font-family: Marvel;
+	font-weight: bold;
 	text-align: center;
 	font-size: 70%;
 	padding: 0;
@@ -261,13 +262,13 @@ footer p {
 
 #social-links {
 	text-align: center;
-	
+
 }
 
 #social-links li {
 	list-style: none;
 	display: inline;
-	
+
 }
 
 #social-links i {
@@ -285,12 +286,12 @@ footer p {
 @media screen and (max-width: 600px) {
 	#services-outer {
 		height: auto;
-		width:100%;
-		display: inline;	
+		width: 100%;
+		display: inline;
 		align-content: center;
 		margin: 0 auto;
 	}
-	
+
 	.services-box {
 		width: 85%;
 		height: auto;
@@ -300,15 +301,15 @@ footer p {
 		text-align: center;
 
 	}
-	
+
 	#findus {
-	display: block;
-	justify-content: center;
-	height: auto;
-}
-	
+		display: block;
+		justify-content: center;
+		height: auto;
+	}
+
 	#findus div {
-	width:100%;
-}
+		width: 100%;
+	}
 
 }
