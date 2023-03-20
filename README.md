@@ -77,6 +77,11 @@ Site was deployed to git pages for more testing found that the overflow of page 
 4. Change styling to contact page on mobiles
 5. Added contact form thank you page
 
+### 20th March 2023 -
+
+1. Final changes add comments to review section and contact pages
+2. Checked to make sure the site is fully operational
+
 ### Validator Testing 
 
 - HTML
