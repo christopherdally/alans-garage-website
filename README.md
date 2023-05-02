@@ -1,117 +1,183 @@
-# Alan's MOT Garage 
+<h1 align="center">Alan's MOT Garage</h1>
+
+[View the live project here.](https://christopherdally.github.io/alans-garage-website/)
 
 The purpose of this project is to design a fully responsive website for a local car garage that currently doesn’t have an online presence at the moment. the goal of the website is to provide information to the end user about the local garage. 
 
-![Responsice Mockup](/wireframe/3-devices-black-mockup.png)
+<h2 align="center"><img src="/wireframe/3-devices-black-mockup.png"></h2>
 
-## Features 
+## User Experience (UX)
 
-The features of the website are the following;
-1.	Contact page with form
-2.	Reviews from Google
-3.	Contact Details
-4.	Social Links
-5.	Main navigation 
-6. Color scheme for website as follows
-	1. #0A2647 				#144272 			#205295 			#2C74B3
-		rgb(10, 38, 71)		rgb(20, 66, 114)	rgb(32, 82, 149)	rgb(44, 116, 179)	
+-   ### User stories
 
-![Wireframe of Garage Website](/wireframe/wireframe.png)
+    -   #### First Time Visitor Goals
 
-## Testing 
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the garage.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        3. As a First Time Visitor, I want to look for the services the garage provides.
 
-All features on the site were tested to ensure the responsiveness of the site across all devices. Contact form transfer to thank you page to tell customers of the message sent. Reviews on the home page tell users of how the garage performs with customers.
+    -   #### Returning Visitor Goals
 
-Site was deployed to git pages for more testing found that the overflow of page so ammended the div spacing to sort this out.
+        1. As a Returning Visitor, I want to find information about the different services the garage provides.
+        2. As a Returning Visitor, I want to find the best way to get in contact with the garage.
 
+-   ### Design
+    -   #### Colour Scheme
+        -   Below is the main color scheme for the site
+		- #0A2647 				#144272 			#205295 			#2C74B3
+		rgb(10, 38, 71)		rgb(20, 66, 114)	rgb(32, 82, 149)	rgb(44, 116, 179)
+    -   #### Typography
+        -   The Marvel/Staatliches font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
+    -   #### Imagery
+        -   Imagery is important. The large image on the homepage and the services images enabling the users to click to find out more about the services on offer.
 
-## Issues/Changes 
+*   ### Wireframes
 
-### 7th March 2023 - 
+    -   Wireframe - <img src="/wireframe/wireframe.png">
 
-1. Bootstrap Menu not loading figured out that I didn't paste Javascript onto the page hence why it wasn't working
-2. Most of the site is now designed just need to configure smaller screen sizes 
+## Features
 
-### 8th March 2023 -
+-   Responsive on all device sizes
 
-1. Add the phone number and address to the top of the page below the navigation
-2. Design the site to be responsive as services and contact details weren't right
-3. Decided to go with separate services pages for the following (Vehicle Servicing, Tyres, MOT's and Vehicle Repairs) as I believe this would be better for the SEO scores.
-4. Add meta keywords and descriptions to all pages again this is for a better SEO.
-5. Deployed website via git on my server run by Plesk for testing purposes at https://musing-archimedes.109-228-60-76.plesk.page/.
-	1. Also deployed to GitHub pages link https://christopherdally.github.io/alans-garage-website/
-6. Run CSS Validator - All clear apart from font awesome
-7. Run HTML Validator
-	1. Change the header image section to a div instead of a section
-	2. Removed height and width of the iframe (reviews)
-8. Added id to iframe reviews to ensure the website passes HTML Validator
-9. Added Vehicle Servicing Page
-10. Added Contact Us page
-11. Embedded Google Maps to Website Contact Page
-12. Changed styling on the contact page button as the mobile version wasn't showing the full button name
-13. Created the remainder of the site pages
-14. Minor changes
-	1. Vosa icon on the bottom of every page
-	2. Active page in Nav bar update
+-   Interactive elements
 
-### 10th March 2023 -
+## Technologies Used
 
-1. Changed the default bootstrap navbar background color and link to better suit the site.
+### Languages Used
 
-### 11th March 2023 -
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- 	
 
-1. Changed the colour for toggle menu
-2. Contact form changed to required input fields
+### Frameworks, Libraries & Programs Used
 
-### 13th March 2023 -
+1. [Bootstrap V5.3.0] (https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Marvel' font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1. [jQuery:](https://jquery.com/)
+    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
+    - Photoshop was used to create the wireframe and resize the images for better display.
 
-1. Change header image size due to not expanding enough on larger screen sizes
-2. Changed the Readme styling using markdown
-3. Updated readme file and added mockup
+## Testing
 
-### 14th March 2023 -
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-1. Changes to styling to stop overlay on page for header and reviews div
-2. Added pictures to services pages
-3. Format documents
-4. Change styling to contact page on mobiles
-5. Added contact form thank you page
+-   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristopherdally.github.io%2Falans-garage-website%2Findex.html)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchristopherdally.github.io%2Falans-garage-website%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-### 20th March 2023 -
+### Testing User Stories from User Experience (UX) Section
 
-1. Final changes add comments to review section and contact pages
-2. Checked to make sure the site is fully operational
+-   #### First Time Visitor Goals
 
-### Validator Testing 
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the garage.
+	
+		1. Upon entering the site the users are greeted with a clean and easily readable site which is responsive to the device they are viewing it on. The main image on the homepage give the user what the website is about.
+		2. The user has a few options to click the services on the navbar or the image category
+    
+	2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+	
+		1. The site is fully responsive to the device that they are viewing on
+		2. 
+    
+	3. As a First Time Visitor, I want to look for the services the garage provides.
+	
+		1. 
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristopherdally.github.io%2Falans-garage-website%2F)
-- CSS
-  - Only errors found on CSS Validator was the css being used on the bootstrap css file not ones that are designed for this project [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchristopherdally.github.io%2Falans-garage-website%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+-   #### Returning Visitor Goals
 
-### Unfixed Bugs
+     1. As a Returning Visitor, I want to find information about the different services the garage provides.
+     
+	 
+	 2. As a Returning Visitor, I want to find the best way to get in contact with the garage.
 
-None that I am aware off
+### Further Testing
+
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Known Bugs
+
+-   No known bugs   
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+### GitHub Pages
 
-The live link can be found here - https://christopherdally.github.io/alans-garage-website/ 
+The project was deployed to GitHub Pages using the following steps...
 
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
-## Credits 
+### Forking the GitHub Repository
 
-1. Font awesome v4 used for the site icons
-2. All media images used for site purchased through adobe stock free
-3. Bootstrap V5 used for navigation menu
-4. Used Colorhunt.co website to generate a colour scheme for the website https://colorhunt.co/palette/0a26471442722052952c74b3
-5. Google maps imbedded on to contact page
-6. Used Sociable Kit (https://www.sociablekit.com/) to embed Google reviews on the site
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-## Other General Project Advice
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
 
-1. Realised that some of my intial commit message wasn't to form but since then made sure that they was right
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+## Credits
+
+### Code
+
+-   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+-   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+
+### Content
+
+-   All content was written by the developer.
+
+-   Colours scheme used for the website can be found at Colorhunt.io [here](https://colorhunt.co/palette/0a26471442722052952c74b3)
+
+### Media
+
+-   All Images were taken from Adobe Stock.
+
+### Acknowledgements
+
+-   Google for use of maps on Contact page.
+
+-   Sociable Kit (https://www.sociablekit.com/) to embed Google reviews on the site
