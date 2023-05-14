@@ -85,18 +85,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 	2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 	
 		1. The site is fully responsive to the device that they are viewing on
-		2. 
+		2. The site is easily navigate across the whole of the site
     
 	3. As a First Time Visitor, I want to look for the services the garage provides.
 	
-		1. 
+		1. The website has pages for the services that the garage provides so can be easily found
 
 -   #### Returning Visitor Goals
 
      1. As a Returning Visitor, I want to find information about the different services the garage provides.
-     
+	 
+		1. The website has pages for the services that the garage provides so can be easily found
 	 
 	 2. As a Returning Visitor, I want to find the best way to get in contact with the garage.
+	 	
+		1. There is a contact page with the contact details of the garage
+		2. Every page has a telephone and address so people can find the details quickly 
 
 ### Further Testing
 
@@ -160,9 +164,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
-
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+-   [Bootstrap5](https://getbootstrap.com/docs/5.3/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 -   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
